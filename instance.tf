@@ -54,5 +54,6 @@ resource "aws_instance" "awsdevbox" {
 
   tags = {
     Name = "development-server"
+    Environment = "development"
   }
 }
