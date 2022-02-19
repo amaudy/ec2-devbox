@@ -1,0 +1,4 @@
+aws_profile = "default"
+aws_region  = "ap-southeast-1"
+vpc_id      = "vpc-xxxx"
+ec2_instance_type = "t3.medium"
