@@ -1,6 +1,6 @@
 output "server_ip" {
-    value = aws_instance.awsdevbox.public_ip
-    description = "IP to server"
+  value       = aws_instance.awsdevbox.public_ip
+  description = "IP to server"
 }
 
 output "private_key" {
