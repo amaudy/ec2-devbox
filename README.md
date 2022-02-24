@@ -27,7 +27,7 @@ terraform init
 Then create instance with
 
 ```
-terraofmr apply --auto-approve
+terraform apply --auto-approve
 ```
 
 After successfully create the script will return IP of your server
